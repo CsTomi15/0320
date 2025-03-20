@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    border: 2px solid red;
+    width: 85%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px;
+    height: 500px;
+    align-items: center;
+   /* flex-direction: row;*/
+}
+
+.cikk {
+    border: 2px dashed blue;
+    /*width: 200px;*/
+    flex: 0 0 200px;
+}
